@@ -1,1 +1,1 @@
-# rsschool-cv
+CV.md file [cv.md](link).
