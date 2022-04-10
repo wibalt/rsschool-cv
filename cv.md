@@ -61,12 +61,12 @@ Applied Mathematic at Vytautas Magnus University
 
 * **2021 "HTML5 and CSS3"** course at Pirple 
 
-![Certificate](/certificate/images/pirple.png)
+![Certificate](https://github.com/wibalt/rsschool-cv/blob/gh-pages/pirple.png)
 
 
 * **2021 "Atrask technologijas"** course at WOMEN GO TECH program ([Here is a link about this program](https://womengotech.com/atrask-technologijas-2/)).
 
-![Certificate](/certificate/images/wgt.png)
+![Certificate](https://github.com/wibalt/rsschool-cv/blob/gh-pages/wgt.png)
 
 
 
