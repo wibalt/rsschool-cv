@@ -1,0 +1,225 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CV</title>
+<!-- Remix icons -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+
+    <body>
+        <nav class="nav" id="nav">
+            
+                    <ul>
+                        <li> <a href="#profile" class="list-link"> Profile</a></li>
+                        <li> <a href="#summary" class="list-link"> Summary</a></li>
+                        <li> <a href="#skils" class="list-link"> Skills</a></li>
+                        <li> <a href="#education-courses" class="list-link"> Education</a></li>
+                        <li> <a href="#experience" class="list-link"> Experience</a></li>
+                        <li> <a href="#contacts" class="list-link"> Contacts</a></li>
+                    </ul>
+        </nav>
+       
+
+         <main>
+            <section id="profile">
+
+                <div id="name-container">
+                    <h1>Vika Baltrusaite</h1>
+                    <h3>Future Front-End Developer</h3>
+                </div>
+
+                <div id="foto-container" >
+                    <img id="myfoto" src="./assets/images/myfoto.jpg" alt="myfoto">
+                </div>
+
+            </section>
+
+            <section id="intro">
+                <div id="summary">
+                    <h2>Summary</h2>
+                    <p>
+                        Hi, I am 29 years old, a little girl's mom (last 2 years I am on maternity leave).
+                
+                        I have a master degree of Mathematical Sciences which includes mathematical applications, data analysis and optimization, statistical calculations and programming also.
+                        I deside to learn something new in IT and I participated to "Women Go Tech" program which led me to programming. I have been looking for role that would suit for me most and I found Front-End development. 
+                    <p>
+Although, I have no experience at real projects yet, but I have already finished some online courses, a few courses are in progress. 
+I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Front-End Developer.
+                    </p>
+                </div>
+
+                <div id="skills" >
+
+                    
+                    <div class="skills-container">
+                        <h3>Skills</h3>
+                    
+
+                        <ul>
+                        <li>  <i class="material-icons">done</i> HTML</li> 
+                        <li> <i class="material-icons">done</i> CSS3</li>
+                        <li> <i class="material-icons">done</i> JavaScript (basics)</li>
+                        <li> <i class="material-icons">done</i> C++, C# (basics)</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="skills-container">
+                        <h3>Languages</h3>
+
+                        <ul>
+                            <li> <b>English</b>  - A2 </li>
+                            <li> <b>Lithuanian</b>  - native</li>
+                        </ul>
+                        
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="education-courses">
+
+                <div class="education">
+
+                    <h2> Education </h2>
+                        <i class="material-icons">school</i> <i class="material-icons">school</i> <i class="material-icons">school</i>
+                      
+                    <div class="education-item">
+                        
+                        <h4>2018 Master of Mathematical Sciences</h4>
+                        <a href="https://www.vdu.lt/lt/study/program/show/77/" target="_blank">Applied Mathematic at Vytautas Magnus University</a>
+                    </div>
+
+                    <div class="education-item">
+                      
+                        <h4>2015 Bachelor of Mathematics</h4>
+                        <a href="https://www.vdu.lt/en/study/program/show/293/" target="_blank">Mathematics and its Application at Vytautas Magnus University</a>
+                
+                    </div>
+                </div>
+
+
+                <div class="courses">
+
+                    <h2> Courses </h2>
+                        <i class="material-icons">school</i> <i class="material-icons">school</i> <i class="material-icons">school</i>
+                      
+                    <div class="courses-item">
+
+                        <ul>
+                            <li><h4>"The Web Developer Bootcamp 2022"</h4> <p> at Udemy (in progress - 50% completed)</p></li>
+                            <li><h4>"Responsive Web Design"</h4> <p>at FreeCodeCamp (in progress)</p></li>
+                            <li><h4>"JavaScript Algorithms and Data Structures"</h4> <p>at FreeCodeCamp (in progress)</p></li>
+                            <li><h4>2021 "HTML5 and CSS3"</h4> <p> at Pirple</p><a href="#" target="_blank">Certificate</a> </li>
+                            <li><h4>2021 "Atrask technologijas"</h4> <a href="#" target="_blank">Certificate</a> </li>
+                        </ul>
+                
+
+                    </div>
+                
+               </div> 
+        
+            </section>
+
+
+
+
+            <section id="experience">
+
+                <div class="experience-item">
+                    <h2>Experience</h2>
+                    <i class="material-icons">work</i> <i class="material-icons">work</i> <i class="material-icons">work</i>
+
+                    <p>
+                        I have no experience as a Developer yet. 
+                    My previous job positions were:
+                    credit risk specialist, personal banker, manager.
+                    </p>
+                    
+                </div>
+
+
+                <div class="code">
+                    <h2>Code Example</h2>
+                    <i class="material-icons">code</i> <i class="material-icons">code</i> <i class="material-icons">code</i>
+                    <pre>
+let input = prompt('What would you like to do?');      
+let todos = ['Wash my hands'];
+    while (input !== 'quit' && input !== 'q'){
+        if (input === 'list'){ 
+            console.log('*******************');
+            for( let i = 0; i < todos.length; i++){
+            console.log (`${i}: ${todos[i]}`);
+            }
+            console.log('*******************');
+        } else if(input === 'new'){
+            const newTodo = prompt('What is new todo?');
+            todos.push(newTodo);
+            console.log(`${newTodo} was added to the ${list}`);
+        } else if (input === 'delete'){
+            const index = parseInt(prompt("Enter the index what do you want to delete "));
+            if(!Number.isNaN(index)){
+                const deleted= todos.splice(index,1);
+                console.log(`Ok, deleted ${deleted[0]}`);
+            } else{
+                console.log('Unknown index');
+            }
+        }
+        input = prompt('What would you like to do?');
+     } 
+console.log("Ok, you quit!");
+                </pre>
+                </div>
+
+            </section> 
+           
+            <section id="contacts">
+                <h2>Contacts</h2>
+                
+                <div class="contacts-item">
+                    <i class="material-icons">location_on</i>
+                    <h3>Location</h3>
+                    <p>Kaunas, Lithuania</p>
+                </div>
+
+                <div class="contacts-item">
+                    <i class="material-icons">email</i>
+                    <h3>E-mail</h3>
+                    <p>jurickaite@gmail.com</p>
+                </div>
+
+                <div class="contacts-item">
+                    <i class="fab fa-discord"></i>
+                    <i class="material-icons"></i>
+                    <h3>Discord</h3>
+                    <p>wbalt#0722</p>
+                </div>
+
+
+           
+            </section>
+            
+
+
+         </main>
+
+         <footer>
+            
+              <a href="https://rs.school/js/">
+                <img src="./assets/images/rslogo.png" alt="rsschool">
+              </a>
+              <h3>&copy; 2022, Vika Baltrusaite</h3>
+              <a class="github" href="https://github.com/wibalt"></a>
+          
+          </footer>
+
+<!-- 
+        <script src="./assets/js/app.js"></script> -->
+    </body>
+
+
+</html>
